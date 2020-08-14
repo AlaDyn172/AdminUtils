@@ -1,0 +1,17 @@
+noPermission: "&4&lYou don't have permission to do this!"
+NameCommand1: "&2CustomCommand &c1"
+NameCommand2: "&2CustomCommand &c2"
+NameCommand3: "&2CustomCommand &c3"
+NameCommand4: "&2CustomCommand &c4"
+NameCommand5: "&2CustomCommand &c5"
+NameCommand6: "&2CustomCommand &c6"
+NameCommand7: "&2CustomCommand &c7"
+ExecCommand1: 'empty'
+ExecCommand2: 'empty'
+ExecCommand3: 'empty'
+ExecCommand4: 'empty'
+ExecCommand5: 'empty'
+ExecCommand6: 'empty'
+ExecCommand7: 'empty'
+Gui-close-after-customcommand-exec: false
+playersBanned: []

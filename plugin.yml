@@ -1,0 +1,73 @@
+name: Admin_Utils
+version: 2.4
+api-version: 1.13
+author: [AlaDyn172]
+
+main: xyz.AlaDyn172.AU.Main
+
+commands:
+    au:
+        description: Open AdminUtils inventory.
+    setcc:
+        description: Set ExecCommand to a command.
+    setnc:
+        description: Set NameCommand to a message.
+    setunban:
+        description: Unban a player after you banned with this plugin.
+permissions:
+    adminutils.*:
+        description: Can use all commands of AdminUtils plugin.
+        children:
+            adminutils.reload: true
+            adminutils.whitelist: true
+            adminutils.difficulty: true
+            adminutils.sanctions: true
+            adminutils.customcommands: true
+            adminutils.setcustomcommand: true
+            adminutils.setnamecommand: true
+            adminutils.banplayer: true
+            adminutils.kickplayer: true
+            adminutils.muteplayer: true
+            adminutils.kickallplayers: true
+            adminutils.setunban: true
+            adminutils.cgamemode: true
+        default: op
+    adminutils.reload:
+        description: Allow to reload the server.
+        default: op
+    adminutils.whitelist:
+        description: Allow to set whitelist settings.
+        default: op
+    adminutils.difficulty:
+        description: Allow to set difficulty.
+        default: op
+    adminutils.sanctions:
+        description: Allow to ban/kick/mute players.
+        default: op
+    adminutils.customcommands:
+        description: Allow to use customcommands GUI.
+        default: op
+    adminutils.setcustomcommand:
+        description: Allow to set ExecCommand to a command.
+        default: op
+    adminutils.setnamecommand:
+        description: Allow to set NameCommand to a message.
+        default: op
+    adminutils.banplayer:
+        description: Allow to ban a player.
+        default: op
+    adminutils.kickplayer:
+        description: Allow to kick a player.
+        default: op
+    adminutils.muteplayer:
+        description: Allow to mute a player.
+        default: op
+    adminutils.kickallplayers:
+        description: Allow to kick all players.
+        default: op
+    adminutils.setunban:
+        description: Allow to unban players with a command.
+        default: op
+    adminutils.cgamemode:
+        description: Allow to change gamemode from UI.
+        default: op
